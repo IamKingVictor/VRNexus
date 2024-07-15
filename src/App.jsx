@@ -4,6 +4,7 @@ import Navbar from "./Components/Navbar";
 import Pricing from "./Components/Pricing";
 import Testimonials from "./Components/Testimonials";
 import WorkFlow from "./Components/WorkFlow";
+import Footer from "./Components/Footer";
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
         <WorkFlow />
         <Pricing />
         <Testimonials />
+        <Footer />
       </div>
     </>
   );
